@@ -1,0 +1,231 @@
+:root {
+  --main-font: "Gotham", sans-serif;
+  --secondry-font: "Poppins", sans-serif;
+  box-sizing: border-box;
+  --main-color: #456276;
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+}
+html{
+  scroll-behavior: smooth;
+}
+
+* {
+  margin: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: var(--main-font);
+}
+
+
+
+
+
+.blue-color {
+  color: var(--main-color);
+}
+/* Start Header Section */
+
+
+header nav{
+  flex: 1;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.containerr {
+min-height: 140px;
+display: flex;
+align-items: center;
+}
+header nav ul {
+  display: flex;
+}
+ul{
+  list-style: none;
+}
+header nav ul li a.active, header nav ul li a:hover {
+  color: var(--main-color);
+}
+header nav ul li a {
+  padding: 0px 20px;
+  display: block;
+  color: #99A1A5;
+  text-decoration: none;
+  font-size: 16px;
+  transition: 0.3s;
+  position: relative;
+  z-index: 2;
+}
+header nav .toggle-menu , .toggle-menu2{
+  font-size: 30px;
+  color: #788995;
+}
+
+header nav .toggle-menu:hover + ul{
+  text-align: center;
+  display: flex !important;
+  flex-direction: column !important;
+  position: absolute !important;
+  left: -140px;
+  top: 50px;
+  font-size: 10px;
+}
+
+#collapse{
+  background-color: transparent!important;
+}
+/* Start Header Section */
+
+/* Start Main Section */
+.main-text {
+  font-size: 65px;
+  top: 30%;
+  left: 9%;
+  line-height: 1;
+}
+
+.small-text {
+  font-family: var(--main-font);
+  font-size: 35px;
+  color: #7d7d7d;
+}
+
+.my-btn {
+  background-color: var(--main-color);
+  border: none;
+  border-radius: 10px;
+}
+
+/* End Main Section */
+
+/* Start Text Section */
+.paragraph p {
+  font-size: 23px;
+  color: #788995;
+}
+
+/* End Text Section */
+
+/* Start Products Section  */
+.products {
+  background-color: rgba(225, 223, 221, 0.23);
+}
+
+.products p {
+  font-size: 23px;
+  color: #99a1a5;
+}
+
+.products .row .content p {
+  position: relative;
+}
+
+.products .row .content .prim-p::before {
+  content: "";
+  width: 5px;
+  position: absolute;
+  background-color: rgba(120, 137, 149, 0.75);
+  left: 0;
+  top: 10px;
+  bottom: 10px;
+}
+/* End Products Section  */
+
+/* Start influencer Section */
+.influencer p {
+  font-size: 23px;
+  color: #99a1a5;
+}
+
+.card-text {
+  font-size: 15px !important;
+}
+
+.influencer .card-container .card-body {
+  font-family: var(--secondry-font);
+}
+
+.influencer .card-container .card-body img {
+  width: 21%;
+}
+.influencer .card-container .model-card img {
+border-radius: 20px 20px 0% 0% !important;
+}
+.influencer .card-container .model-card{
+  border-radius: 20px!important;
+  
+  }
+
+.girl{
+  clip-path: circle();
+}
+/* End influencer Section */
+
+/* Start footer Section */
+footer .txt-btn-footer {
+  background-color: #f0f1f2;
+}
+
+.information {
+  background-color: var(--main-color) !important;
+}
+
+.information ul,
+p {
+  font-size: 15px;
+  font-family: var(--main-font);
+}
+
+.footer-text {
+  font-size: 45px;
+}
+/* End footer Section */
+
+.dark-layer {
+  background-color: rgba(0, 0, 0, 0.8);
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  padding: 7%;
+}
+
+input {
+  border-color: transparent transparent #adadad transparent;
+  outline: none;
+}
+
+form .txt-field {
+  display: flex;
+  padding: 25px 0;
+  flex-direction: column;
+}
+
+.dark-layer .d-flex {
+  position: relative;
+  height: 100%;
+}
+
+.btn-close {
+  background-color: transparent;
+  border: 0;
+  position: absolute;
+  right: 15px;
+  top: 2%;
+  color: #b8b8b8;
+  font-size: 15px;
+}
+
+/* form */
+
+label {
+  color: #f00;
+  height: 0;
+}
+
+
+
+
