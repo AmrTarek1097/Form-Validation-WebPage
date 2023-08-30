@@ -1,15 +1,14 @@
-# Form-Validation-WebPage
-Web site with form validation and data storing (Full stack task)
+## Landing Web page with form validation functionality and data storing using MySql.
 
-Tools:
+## Tools:
 - Visual Studio Code
 - xampp
 
-Technologies:
--HTML
--CSS
--Bootstrap
--Javascript
--jQuery (jQuery Validation Plugin)
--PHP
--MySQL
+
+## Technologies used:
+#### 1- HTML
+#### 2- CSS
+#### 3- Bootstrap
+#### 4- jQuery (jQuery Validation Plugin)
+#### 5- PHP
+#### 6- MySQL
